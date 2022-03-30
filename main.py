@@ -10,19 +10,11 @@ def tipo_entrada (num_usuario):
         return False
        
 
-print(tipo_entrada (6))
-    
-
-def imprime_resultado():
-    
-    if tipo_entrada() == True:
-       return 'Tu número es par'
-       
-    elif tipo_entrada() == False:
-        return 'Tu número es impar'
-       
 
 
 
-if __name__ == "__main__":
-   imprime_resultado(tipo_entrada(6))
+# if __name__ == "__main__":
+#    tipo_entrada()
+
+# else:
+#     print(tipo_entrada ())
