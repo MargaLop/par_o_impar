@@ -13,8 +13,8 @@ def tipo_entrada (num_usuario):
 
 
 
-# if __name__ == "__main__":
-#    tipo_entrada()
+if __name__ == "__main__":
+   print(f'mi nombres es >> {__name__}<<')
 
-# else:
-#     print(tipo_entrada ())
+else:
+    print (f'Importado como modulo: >>{__name__}<<')
